@@ -5,7 +5,7 @@ export function AnadolubankDocumentSwagger() {
   return applyDecorators(
     ApiOperation({ summary: 'Create Anadolubank document' }),
     ApiResponse({
-      status: 200,
+      status: 201,
       description: 'Anadolubank document has been successfully generated',
       content: {
         'application/pdf': {

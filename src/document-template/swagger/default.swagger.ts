@@ -5,7 +5,7 @@ export function DefaultDocumentSwagger() {
   return applyDecorators(
     ApiOperation({ summary: 'Create Default document' }),
     ApiResponse({
-      status: 200,
+      status: 201,
       description: 'The document has been successfully generated.',
       content: {
         'application/pdf': {
